@@ -7,7 +7,7 @@ If x is even and greater than 20, return 'Blue'
 Constraint: input integer is always within the range 1 to 100 inclusive
 ###
 
-# EXAMPLE SOLUTION
+#SOLUTION
 
 def is_within_range(num, _min, _max):
     if _min <= num <= _max:
