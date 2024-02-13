@@ -24,11 +24,10 @@ def red_or_blue(num):
     if (is_even(num) and num > 20) or num in [2, 4]:
         return 'Blue'
     
-#create a test file (use test_unit_test_example.py), import the function and test it.   
+#create a test file (test_unit_test_example.py), import the function and test it.   
 
 from unittest import TestCase, main
 from main import red_or_blue
-
 
 class TestRedOrBlueFunction(TestCase):
 
