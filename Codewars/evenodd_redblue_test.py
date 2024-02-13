@@ -4,8 +4,7 @@ If x is odd, return 'Red'
 If x is even and in the inclusive range of 2 to 5, return 'Blue'
 If x is even and in the inclusive range of 6 to 20, return 'Red'
 If x is even and greater than 20, return 'Blue'
-Constraint notes:
-an input integer is alway withing the range 1 to 100 inclusive
+Constraint: input integer is always within the range 1 to 100 inclusive
 ###
 
 # EXAMPLE SOLUTION
