@@ -14,10 +14,8 @@ def is_within_range(num, _min, _max):
         return True
     return False
 
-
 def is_even(num):
     return num % 2 == 0
-
 
 def red_or_blue(num):
     if not is_even(num) or (is_even(num) and is_within_range(num, 6, 20)):
